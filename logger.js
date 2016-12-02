@@ -2,16 +2,16 @@
 const chalk = require('chalk')
 
 module.exports = {
-  success (msg) {
-    console.log(chalk.green.bold('[OK]'), msg)
+  success () {
+    console.log(chalk.green.bold('[OK]'), ...arguments)
   },
-  info (msg) {
-    console.log(chalk.blue.bold('[INFO]'), msg)
+  info () {
+    console.log(chalk.blue.bold('[INFO]'), ...arguments)
   },
-  warning (msg) {
-    console.warn(chalk.yellow.bold('[WARN]'), msg)
+  warning () {
+    console.warn(chalk.yellow.bold('[WARN]'), ...arguments)
   },
-  error (msg) {
-    console.error(chalk.red.bold('[ERR]'), msg)
+  error () {
+    console.error(chalk.red.bold('[ERR]'), ...arguments)
   }
 }
