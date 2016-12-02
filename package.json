@@ -1,0 +1,28 @@
+{
+  "name": "node-logger",
+  "version": "1.0.0",
+  "description": "Simple logging utility",
+  "main": "logger.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Py64/node-logger.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Py64",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Py64/node-logger/issues"
+  },
+  "homepage": "https://github.com/Py64/node-logger#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
