@@ -3,4 +3,8 @@ language: node_js
 node_js:
   - 7
 
+script:
+  - npm install -g standard
+  - standard
+
 sudo: false
