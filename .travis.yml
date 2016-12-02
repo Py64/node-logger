@@ -3,13 +3,4 @@ language: node_js
 node_js:
   - 7
 
-install:
-  - npm install -g istanbul mocha
-
-script:
-  - istanbul cover _mocha --report lcovonly -- -R spec
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
-
 sudo: false
