@@ -13,5 +13,6 @@ module.exports = {
   },
   error () {
     console.error(chalk.red.bold('[ERR]'), ...arguments)
+    return false
   }
 }
